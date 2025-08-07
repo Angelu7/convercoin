@@ -1,0 +1,27 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "A dynamic currency converter that fetches real-time exchange rates",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test src/test/*.test.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "exchange-rates",
+    "api",
+    "console"
+  ],
+  "author": "Currency Converter Team",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
